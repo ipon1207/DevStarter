@@ -1,0 +1,28 @@
+{
+    "name": "Rust Projects",
+    "image": "mcr.microsoft.com/devcontainers/rust:latest",
+
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "[rust]": {
+                    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+                    "editor.formatOnSave": true
+                },
+
+                "rust-analyzer.check.command": "clippy",
+                "editor.inlayHints.enabled": "on",
+                "rust-analyzer.cargo.autoreload": true
+                
+            },
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "vadimcn.vscode-lldb",
+                "tamasfe.even-better-toml",
+                "fill-labs.dependi"
+            ]
+        }
+    },
+
+    "remoteUser": "vscode"
+}
