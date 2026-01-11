@@ -1,0 +1,23 @@
+{
+  "name": "TS Projects",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+
+  // VS Code の設定
+  "customizations": {
+    "vscode": {
+      // コンテナ内で自動インストールしたい拡張機能
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+      // コンテナ固有のVS Code設定
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+        }
+      }
+    }
+  },
+
+  // コンテナに割り当てるユーザー
+  "remoteUser": "node"
+}
