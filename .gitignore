@@ -1,1 +1,2 @@
-Manim/media/videos/*
+Manim/media/*
+Manim/__pycache__/*
