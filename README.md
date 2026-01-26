@@ -18,7 +18,7 @@
 
 ## 使い方
 
-> [!Note] 前提条件
+> [!NOTE] 前提条件
 >
 > - [ ] Visual Studio Code のインストール
 > - [ ] Git のインストール
