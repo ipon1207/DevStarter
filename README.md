@@ -11,6 +11,7 @@
 | ディレクトリ | 概要 | リンク |
 | -------------- | ---- | ---- |
 | AtCoder | C++ベースのAtCoder練習用環境 | [AtCoder/README.md](AtCoder/README.md) |
+| Bun | Bunランタイムの開発環境 | [Bun/README.md](Bun/README.md) |
 | Java | Javaの開発環境 | [Java/README.md](Java/README.md) |
 | Manim | PythonライブラリManimの開発環境 | [Manim/README.md](Manim/README.md) |
 | Rust | Rustの開発環境 | [Rust/README.md](Rust/README.md) |
